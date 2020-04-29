@@ -1,0 +1,10 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <OutwardRootPath>E:\Games\SteamLibrary\steamapps\common\Outward</OutwardRootPath>
+    </PropertyGroup>
+    <PropertyGroup>
+        <OutputPath>bin\$(Configuration)\Mods\</OutputPath>
+        <DebugSymbols>false</DebugSymbols>
+        <DebugType>none</DebugType>
+    </PropertyGroup>
+</Project>

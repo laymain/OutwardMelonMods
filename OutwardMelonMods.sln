@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{AA397283-C118-49EE-A35D-0803BC87E791}"
+ProjectSection(SolutionItems) = preProject
+	UserPaths.props.template = UserPaths.props.template
+	UserPaths.props = UserPaths.props
+	README.md = README.md
+	.gitignore = .gitignore
+	LICENSE = LICENSE
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkipLogos", "src\SkipLogos\SkipLogos.csproj", "{E6C114A0-8929-4D1E-9948-12D271231209}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6C114A0-8929-4D1E-9948-12D271231209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C114A0-8929-4D1E-9948-12D271231209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C114A0-8929-4D1E-9948-12D271231209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C114A0-8929-4D1E-9948-12D271231209}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
