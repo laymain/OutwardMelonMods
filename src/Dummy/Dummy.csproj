@@ -4,12 +4,16 @@
     <Import Project="..\..\UserPaths.props" />
     <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
     <PropertyGroup>
-        <ProjectGuid>{E6C114A0-8929-4D1E-9948-12D271231209}</ProjectGuid>
-        <RootNamespace>SkipLogos</RootNamespace>
-        <AssemblyName>SkipLogos</AssemblyName>
+        <ProjectGuid>D4D97F43-15CB-40D8-90DB-009EAE995A30</ProjectGuid>
+        <RootNamespace>Dummy</RootNamespace>
+        <AssemblyName>Dummy</AssemblyName>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
     <ItemGroup>
-        <Compile Include="SkipLogosMod.cs" />
+      <Compile Include="DummyMod.cs" />
+      <Compile Include="Hooks\MenuManagerHooks.cs" />
+      <Compile Include="Hooks\Utils\Hook.cs" />
+      <Compile Include="Hooks\Utils\IntPtrExtensions.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="README.md" />
