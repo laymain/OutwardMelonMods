@@ -1,7 +1,7 @@
 ## Outwards mods for MelonLoader
 
-* [SkipLogos](src/SkipLogos/README.md) _(original by Stian)_
-* [Dummy](src/Dummy/README.md) _(POC for method hooking)_
+* [SkipLogos](src/SkipLogos) _(original by Stian)_
+* [Dummy](src/Dummy) _(POC for method hooking)_
 
 ## How to compile
 

@@ -1,6 +1,6 @@
 ## Dummy (IL2CPP)
 
-This mod prints in the MelonLoader the name of the character that has toggled the map.
+This mod prints in the MelonLoader console the name of the character that has toggled the map.
 
 This is just a POC demonstrating how can methods be hooked in the IL2CPP version of Outward.
 
